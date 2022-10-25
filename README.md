@@ -8,3 +8,9 @@ https://github.com/SergeyUsachev021/Ufick70.git
 bazadannix.py-База Данных
 
 novayaproga.ipynb-записная книжка
+
+SELECT Count(*)From INFORMATION_SCHEMA.TABLES - счёт таблиц в экземпляре БД
+
+SELECT*FROM users - запрос на выборку данных из TAB users
+
+SELECT*FROM users, grades WHERE users.user_id=grades.user_id - запрос из двух таблиц
