@@ -14,3 +14,9 @@ SELECT Count(*)From INFORMATION_SCHEMA.TABLES - счёт таблиц в экз�
 SELECT*FROM users - запрос на выборку данных из TAB users
 
 SELECT*FROM users, grades WHERE users.user_id=grades.user_id - запрос из двух таблиц
+
+\begin{equation}\label{eq:fourierrow}
+
+$$ f(x) = \frac{A_0}{2} + \sum \limits_{n=1}^{\infty} A_n \cos \left( \frac{2 n \pi x}{\nu} - \alpha_n \right) $$
+
+\end{equation
